@@ -8,7 +8,10 @@ import './index.css';
 import Popover from './components/Popover/Popover';
 import reportWebVitals from './reportWebVitals';
 import MyApp from './components/Button/Buttonts';
-import ParentComponent from './components/UseCallback/Usecallback'
+//import ParentComponent from './components/UseCallback/Usecallback'
+import Example from './components/Example/Example'
+import ParentComponent from './components/ParentToChildProps/ParentComponent'
+import BeautifulComponent from './components/BeautifulComponent/BeautifulComponent'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,7 +25,9 @@ root.render(
         <button>Hover me</button>
       </Popover>
       <MyApp/>
+      <Example/>
       <ParentComponent/>
+      <BeautifulComponent/>
 
    
   </React.StrictMode>

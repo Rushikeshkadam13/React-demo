@@ -12,6 +12,7 @@ import MyApp from './components/Button/Buttonts';
 import Example from './components/Example/Example'
 import ParentComponent from './components/ParentToChildProps/ParentComponent'
 import BeautifulComponent from './components/BeautifulComponent/BeautifulComponent'
+import RenderingList from './components/Rendering_List/RenderingList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +29,7 @@ root.render(
       <Example/>
       <ParentComponent/>
       <BeautifulComponent/>
+      <RenderingList/>
 
    
   </React.StrictMode>
